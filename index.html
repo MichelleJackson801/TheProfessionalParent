@@ -1,1 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TheProfessionalParent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <nav class="nav">
+        <a class="brand" href="index.html">
+          <span class="logo" aria-hidden="true"></span>
+          <span>TheProfessionalParent</span>
+        </a>
+        <div class="links">
+          <a class="active" href="index.html">Home</a>
+          <a href="recipes.html">Recipes</a>
+          <a href="systems.html">Systems</a>
+          <a href="burnout.html">Burnout</a>
+        </div>
+      </nav>
+    </div>
+  </div>
 
+  <header class="wrap hero">
+    <span class="kicker"><span class="dot"></span> Professional-parent playbook</span>
+
+    <h1>Simple meals, simple systems, calmer days.</h1>
+
+    <p class="sub">
+      Toddler-friendly recipes and low-effort routines for working parents
+      who want life to run smoother without burning out.
+    </p>
+
+    <div class="actions">
+      <a class="btn" href="recipes.html">Browse recipes</a>
+      <a class="btn secondary" href="systems.html">Build your system</a>
+    </div>
+
+    <img src="images/hero-working-parent.jpg"
+         alt="Working parent managing work and family at home"
+         style="width:100%; border-radius:18px; margin-top:22px;">
+  </header>
+
+  <main class="wrap">
+    <section class="section">
+      <h2>Start here</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>🍓 Toddler Recipes</h3>
+          <p>10–20 minute meals, snack formulas, freezer-friendly wins.</p>
+          <div class="meta">
+            <span class="pill">quick</span><span class="pill">picky-eater</span><span class="pill">prep-light</span>
+          </div>
+          <p style="margin-top:12px;"><a href="recipes.html">Explore →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>🗓️ Systems</h3>
+          <p>Routines, checklists, and “default plans” so you’re not deciding all day.</p>
+          <div class="meta">
+            <span class="pill">morning</span><span class="pill">evening</span><span class="pill">weekly reset</span>
+          </div>
+          <p style="margin-top:12px;"><a href="systems.html">See systems →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>🌿 Burnout</h3>
+          <p>Minimum viable days, boundaries, and energy protection that actually works.</p>
+          <div class="meta">
+            <span class="pill">boundaries</span><span class="pill">energy</span><span class="pill">self-compassion</span>
+          </div>
+          <p style="margin-top:12px;"><a href="burnout.html">Read →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Latest posts</h2>
+      <div class="list">
+        <a class="item" href="post-template.html">
+          <div>
+            <div class="title">The “Snack Board” Formula for Picky Eaters</div>
+            <div class="desc">A simple template you can repeat with what you already have.</div>
+          </div>
+          <div class="date">Feb 2</div>
+        </a>
+
+        <a class="item" href="post-template.html">
+          <div>
+            <div class="title">10-Min After-Work Reset</div>
+            <div class="desc">Stop the evening spiral with one small “close-out” routine.</div>
+          </div>
+          <div class="date">Feb 2</div>
+        </a>
+
+        <a class="item" href="post-template.html">
+          <div>
+            <div class="title">Minimum Viable Day</div>
+            <div class="desc">What to do when you’re running on empty (without guilt).</div>
+          </div>
+          <div class="date">Feb 2</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="year"></span> TheProfessionalParent • Built on GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
