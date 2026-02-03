@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Parent Ops</title>
+  <title>TheProfessionalParent</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
       <nav class="nav">
         <a class="brand" href="index.html">
           <span class="logo" aria-hidden="true"></span>
-          <span>Parent Ops</span>
+          <span>TheProfessionalParent</span>
         </a>
         <div class="links">
           <a class="active" href="index.html">Home</a>
@@ -26,15 +26,22 @@
 
   <header class="wrap hero">
     <span class="kicker"><span class="dot"></span> Professional-parent playbook</span>
+
     <h1>Simple meals, simple systems, calmer days.</h1>
+
     <p class="sub">
-      Toddler-friendly recipes + low-effort routines for working parents who want life to run smoother
-      without burning out.
+      Toddler-friendly recipes and low-effort routines for working parents
+      who want life to run smoother without burning out.
     </p>
+
     <div class="actions">
       <a class="btn" href="recipes.html">Browse recipes</a>
       <a class="btn secondary" href="systems.html">Build your system</a>
     </div>
+
+    <img src="images/hero-working-parent.jpg"
+         alt="Working parent managing work and family at home"
+         style="width:100%; border-radius:18px; margin-top:22px;">
   </header>
 
   <main class="wrap">
@@ -80,6 +87,7 @@
           </div>
           <div class="date">Feb 2</div>
         </a>
+
         <a class="item" href="post-template.html">
           <div>
             <div class="title">10-Min After-Work Reset</div>
@@ -87,6 +95,7 @@
           </div>
           <div class="date">Feb 2</div>
         </a>
+
         <a class="item" href="post-template.html">
           <div>
             <div class="title">Minimum Viable Day</div>
@@ -99,7 +108,7 @@
   </main>
 
   <footer class="wrap footer">
-    <p>© <span id="year"></span> Parent Ops • Built on GitHub Pages</p>
+    <p>© <span id="year"></span> TheProfessionalParent • Built on GitHub Pages</p>
   </footer>
 
   <script>
